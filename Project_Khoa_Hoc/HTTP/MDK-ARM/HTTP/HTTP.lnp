@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"http\startup_stm32f103xb.o"
+"http\main.o"
+"http\gpio.o"
+"http\usart.o"
+"http\stm32f1xx_it.o"
+"http\stm32f1xx_hal_msp.o"
+"http\sim800l.o"
+"http\stm32f1xx_hal_gpio_ex.o"
+"http\stm32f1xx_hal_tim.o"
+"http\stm32f1xx_hal_tim_ex.o"
+"http\stm32f1xx_hal_uart.o"
+"http\stm32f1xx_hal.o"
+"http\stm32f1xx_hal_rcc.o"
+"http\stm32f1xx_hal_rcc_ex.o"
+"http\stm32f1xx_hal_gpio.o"
+"http\stm32f1xx_hal_dma.o"
+"http\stm32f1xx_hal_cortex.o"
+"http\stm32f1xx_hal_pwr.o"
+"http\stm32f1xx_hal_flash.o"
+"http\stm32f1xx_hal_flash_ex.o"
+"http\stm32f1xx_hal_exti.o"
+"http\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "HTTP\HTTP.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HTTP.map" -o HTTP\HTTP.axf
