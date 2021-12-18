@@ -8,8 +8,8 @@
 #
 ![image](https://user-images.githubusercontent.com/56969447/146633097-f827e846-5b39-46fc-95e0-03ed28444787.png)
 #
-# + Cấp nguồn 4.2V và thêm tụ hóa 1000uF để nguồn ổn định hơn.
-# + Ban đầu cấp nguồn thì led nhấp nháy 1 giây, đợi 30s thì sim kết nối với modune Sim và led sẽ nháy 3 giây 1 lần
+#Cấp nguồn 4.2V và thêm tụ hóa 1000uF để nguồn ổn định hơn.
+#Ban đầu cấp nguồn thì led nhấp nháy 1 giây, đợi 30s thì sim kết nối với modune Sim và led sẽ nháy 3 giây 1 lần
 #
 #
 #
