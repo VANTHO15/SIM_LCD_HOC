@@ -81,9 +81,12 @@ Cái này khá quan trọng vì khi chúng ta đã cấu hình xong khi tắt He
 
 **16.AT+CMGS=”sodienthoai”** : Gửi tin nhắn cho sodienthoai  
 ![image](https://user-images.githubusercontent.com/86427371/146667743-db217ff2-e9ce-48f9-86f0-4074759e1b68.png)  
-Sau dòng lệnh này sẽ nhận được **‘>’** (mã HEX là 0x3C), bây giờ có thể nhập vào nội dung tin nhắn, nhập tiếp **0x1A** để gửi tin nhắn đi hoặc **0x1B** để hủy gửi tin nhắn.Tới bước này chúng ta không cần gõ dòng lệnh <CR> <LF> nữa nhé!.  
+Sau dòng lệnh này sẽ nhận được **‘>’** (mã HEX là 0x3C), bây giờ có thể nhập vào nội dung tin nhắn, nhập tiếp **0x1A** để gửi tin nhắn đi hoặc **0x1B** để hủy gửi tin nhắn.Tới bước này chúng ta không cần gõ dòng lệnh <CR><LF> nữa nhé!  
  Vì trên Hercules không gửi được 0x1A nên chúng ta gõ $1A nhé !
- ![image](https://user-images.githubusercontent.com/86427371/146667766-e9eba7ac-b39b-40a2-8340-1a28de93d2e1.png)  
+ ![image](https://user-images.githubusercontent.com/86427371/146668016-016e7202-c323-4c34-9e3c-2da6bb3a9137.png)  
+Như vậy chúng ta có thể gọi và gửi tin nhắn từ MODULE SIM800L
+Cảm ơn mọi người đã quan tâm và theo dõi   
+Chúc mọi người thành công  
 
 
 
