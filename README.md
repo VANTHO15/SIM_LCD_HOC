@@ -40,13 +40,13 @@ Bây giờ chúng ta sẽ thực hiện các tập lệnh AT trên Hercules. M�
 *Trả về: **+COPS: 0,0,”Viettel Mobile” OK** (nhận dạng được nhà mạng là Viettel Mobile)*   
 *Trả về: **+COPS: 0** (không thấy nhà mạng)*  
 
-**6.ATD0702358769;** Gọi điện cho số điện thoại 0702358769  
-![image](https://user-images.githubusercontent.com/86427371/146667265-2d30be96-514d-4403-b8ab-e0001c2aac7b.png)  
+**6.ATD0702358769;** Gọi điện cho số điện thoại 0702358769    
+![image](https://user-images.githubusercontent.com/86427371/146667265-2d30be96-514d-4403-b8ab-e0001c2aac7b.png)    
 
-**7.ATA**: Chấp nhận cuộc gọi đến 
-![image](https://user-images.githubusercontent.com/86427371/146667278-0d846327-a1df-4c94-a4ba-74bb7a8900d8.png)  
+**7.ATA**: Chấp nhận cuộc gọi đến   
+![image](https://user-images.githubusercontent.com/86427371/146667278-0d846327-a1df-4c94-a4ba-74bb7a8900d8.png)    
 
-**8.ATH**: Hủy cuộc gọi  
+**8.ATH**: Hủy cuộc gọi    
 ![image](https://user-images.githubusercontent.com/86427371/146667291-d091f1c4-67d1-425c-a0dd-6e296ed46ac8.png)  
 
 9.AT+CUSD=1,”*101##” : Chuyển chế độ USD để tra số dư tài khoản  
