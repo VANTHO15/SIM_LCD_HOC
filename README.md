@@ -18,9 +18,70 @@ Kết nối như trên hình!
 TX và RX phải nối chéo với nhau giữa các module, đồng  nối mass chung  
 Nếu không có CH340 có thể dùng USB TTL  
 ## III.Tập Lệnh AT  
-**1.AT Kiểm tra module có hoạt động không**  
-*Trả về: OK nếu hoạt động bình thường, báo lỗi hoặc 	không trả về nếu có lỗi xảy ra  
+**1.AT**  Kiểm tra module có hoạt động không   
+*Trả về: OK nếu hoạt động bình thường, báo lỗi hoặc 	không trả về nếu có lỗi xảy ra*  
+**2.ATEx : Bật (x=1) hoặc tắt (x=0) chế độ phản hồi lệnh vừa gửi (nên tắt đi)**   
+**3.AT+CPIN? :**  Kiểm tra Simcard     
+*Trả về: +CPIN: READY OK (nếu tìm thấy simcard)*   
+ **4.AT+CSQ :**  Kiểm tra chất lượng sóng       
+ *Trả về: +CSQ: xx,0 OK (xx là chất lượng sóng, tối đa là 31)*   
+**5.AT+COPS? :** Kiểm tra tên nhà mạng      
+*Trả về: +COPS: 0,0,”Viettel Mobile” OK (nhận dạng được nhà mạng là Viettel Mobile)*   
+*Trả về: +COPS: 0 (không thấy nhà mạng)*    
+**6.ATD0702358769; :** Gọi điện cho số điện thoại 0702358769  
+**7.ATA :** Chấp nhận cuộc gọi đến  
+**8.ATH :** Hủy cuộc gọi  
+**9.AT+CUSD=1,”*101##” :** Chuyển chế độ USD để tra số dư tài khoản  
+**10.ATD*101#; :** Kiểm tra tài khoản  
+*Trả về: +CUSD: 0, “Tai khoan goc cua quy khach la ….*  
+**11.AT+CMGF=x :** Cấu hình tin nhắn **(x=0: DPU, x=1:dạng ký tự)**  
+**12.AT+IPR=9600:** thay đổi tốc độ baud  
+**13.AT+CNMI=2,x,0,0 :** Chọn *x=1*(chỉ báo vị trí lưu tin nhắn) hoặc *x=2* (hiển thị ra ngay nội dung tin nhắn)  
+*Trả về: +CMTI: “SM”,3 (x=1)*  
+*Trả về: +CMT: “+84938380171″,””,”17/07/30,14:48:09+28″ noidungtinnhan!*    
+Sau đó **AT&W** : lưu các cái mình đã cấu hình!  
+**14.AT+CMGR=x :** Đọc tin nhắn tại vị trí lưu x  
+*Trả về: nội dung tin nhắn*  
+**15.AT+CMGD=x :** Xóa tin nhắn được lưu ở vị trí x  
+**16.AT+CMGS=”sodienthoai” :** Gửi tin nhắn cho sodienthoai, sau dòng lệnh này sẽ nhận được **‘>’** (mã HEX là 0x3C), bây giờ có thể nhập vào nội dung tin nhắn, nhập tiếp 0x1A để gửi tin nhắn đi hoặc 0x1B để hủy gửi tin nhắn.tin nhắn hay ox1a ox1b không cần <CR><LF>, 0x thay bằng $  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
 
 
 
