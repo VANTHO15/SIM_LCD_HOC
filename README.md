@@ -83,7 +83,7 @@ Cái này khá quan trọng vì khi chúng ta đã cấu hình xong khi tắt He
 ![image](https://user-images.githubusercontent.com/86427371/146667743-db217ff2-e9ce-48f9-86f0-4074759e1b68.png)  
 Sau dòng lệnh này sẽ nhận được **‘>’** (mã HEX là 0x3C), bây giờ có thể nhập vào nội dung tin nhắn, nhập tiếp **0x1A** để gửi tin nhắn đi hoặc **0x1B** để hủy gửi tin nhắn.Tới bước này chúng ta không cần gõ dòng lệnh <CR><LF> nữa nhé!  
  Vì trên Hercules không gửi được 0x1A nên chúng ta gõ $1A nhé !
- ![image](https://user-images.githubusercontent.com/86427371/146668016-016e7202-c323-4c34-9e3c-2da6bb3a9137.png)  
+ ![image](https://user-images.githubusercontent.com/86427371/146668182-8e75da61-408e-449c-b270-1cccafd87ff6.png)  
  
  
 Như vậy chúng ta có thể gọi và gửi tin nhắn từ MODULE SIM800L.
