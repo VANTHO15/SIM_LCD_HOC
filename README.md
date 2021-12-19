@@ -49,7 +49,7 @@ Bây giờ chúng ta sẽ thực hiện các tập lệnh AT trên Hercules. M�
 **8.ATH**: Hủy cuộc gọi  
 ![image](https://user-images.githubusercontent.com/86427371/146667291-d091f1c4-67d1-425c-a0dd-6e296ed46ac8.png)  
 
-**9.AT+CUSD=1,”*101##”** : Chuyển chế độ USD để tra số dư tài khoản  
+9.AT+CUSD=1,”*101##” : Chuyển chế độ USD để tra số dư tài khoản  
 ![image](https://user-images.githubusercontent.com/86427371/146667305-611adb94-3e2c-4794-9bc6-a7a51ecc2c05.png)    
 ![image](https://user-images.githubusercontent.com/86427371/146667322-135f46dd-3c35-4962-853f-0daf431c3474.png)  
 
