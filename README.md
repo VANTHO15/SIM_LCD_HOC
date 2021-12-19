@@ -36,7 +36,7 @@ Bây giờ chúng ta sẽ thực hiện các tập lệnh AT trên Hercules. M�
 *Trả về: **+CSQ: xx,0 OK** (xx là chất lượng sóng, tối đa là 31)*  
 
 **5.AT+COPS?** : Kiểm tra tên nhà mạng
-![image](https://user-images.githubusercontent.com/86427371/146667248-ccd9f4ae-311d-4055-ad13-144651d357e1.png)  
+![image](https://user-images.githubusercontent.com/86427371/146667248-ccd9f4ae-311d-4055-ad13-144651d357e1.png)    
 *Trả về: **+COPS: 0,0,”Viettel Mobile” OK** (nhận dạng được nhà mạng là Viettel Mobile)*   
 *Trả về: **+COPS: 0** (không thấy nhà mạng)*  
 
@@ -84,9 +84,11 @@ Cái này khá quan trọng vì khi chúng ta đã cấu hình xong khi tắt He
 Sau dòng lệnh này sẽ nhận được **‘>’** (mã HEX là 0x3C), bây giờ có thể nhập vào nội dung tin nhắn, nhập tiếp **0x1A** để gửi tin nhắn đi hoặc **0x1B** để hủy gửi tin nhắn.Tới bước này chúng ta không cần gõ dòng lệnh <CR><LF> nữa nhé!  
  Vì trên Hercules không gửi được 0x1A nên chúng ta gõ $1A nhé !
  ![image](https://user-images.githubusercontent.com/86427371/146668016-016e7202-c323-4c34-9e3c-2da6bb3a9137.png)  
-Như vậy chúng ta có thể gọi và gửi tin nhắn từ MODULE SIM800L
+ 
+ 
+Như vậy chúng ta có thể gọi và gửi tin nhắn từ MODULE SIM800L.
 Cảm ơn mọi người đã quan tâm và theo dõi   
-Chúc mọi người thành công  
+Chúc mọi người thành công !!! 
 
 
 
